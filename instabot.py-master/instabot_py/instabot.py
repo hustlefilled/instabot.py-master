@@ -61,7 +61,7 @@ class InstaBot:
         self.persistence.bot = self
         self.session_file = config.get("session_file")
 
-        self.user_agent = self.user_agent = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15"), 1)[0]
+        self.user_agent = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.1 Safari/605.1.15"), 1)[0]
 
         self.current_version = 1556087528
 
