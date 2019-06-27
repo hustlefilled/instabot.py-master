@@ -4,7 +4,7 @@ import time
 import json
 import pprint
 
-from instabot_py import instabot.py
+from instabot_py import instabot
 
 sys.path.append(os.path.join(sys.path[0], '../'))
 
