@@ -128,5 +128,4 @@ except Exception as e:
         success = _solve_checkpoint_challenge(bot)
         if success:
             bot.login(cookie_fname=COOKIE_FNAME)
-    else print("Unknown challenge found, share the next output to get support")
         _print_bot_last_state(bot)
