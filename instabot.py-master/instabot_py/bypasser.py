@@ -117,7 +117,7 @@ def _solve_checkpoint_challenge(_bot):
         return False
 
 
-bot = Bot()
+bot = Bot
 
 try:
     bot.login(use_cookie=False)
