@@ -10,14 +10,6 @@ sys.path.append(os.path.join(sys.path[0], '../'))
 
 COOKIE_FNAME = 'cookie.txt'
 
-
-def _print_bot_last_state(bot):
-    """Just pretty print the bot last state."""
-    pprint.pprint(bot.last_response, indent=4)
-    pprint.pprint(bot.last_response.headers, indent=4)
-    pprint.pprint(bot.last_json, indent=4)
-    
-
 def _get_challenge_choices(last_json):
     """Analise the Json response and get possible choices."""
     choices = []
