@@ -124,7 +124,7 @@ try:
     bot.logger.info('User logged successfully, no Challenge required')
     exit()
 except Exception as e:
-    if bot.json.get('error_type', '') == 'checkpoint_challenge_required':
+    if bot.json('error_type', '') == 'checkpoint_challenge_required':
         print("Checkpoint_challenge found, attempting to solve...")
         success = _solve_checkpoint_challenge(bot)
         if success:
