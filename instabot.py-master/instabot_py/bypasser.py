@@ -63,7 +63,7 @@ def _reset_challenge(_bot):
 def _solve_checkpoint_challenge(_bot):
     # --- Start challenge
     time.sleep(3)
-    challenge_url = _bot.json['challenge']['api_path'][1:]
+    challenge_url = _bot['challenge']['api_path'][1:]
     try:
         _bot.send_request(
             challenge_url, None, login=True, with_signature=False)
