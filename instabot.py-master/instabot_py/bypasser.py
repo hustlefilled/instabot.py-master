@@ -67,7 +67,6 @@ def _solve_checkpoint_challenge(_bot):
         _bot.send_request(
             challenge_url, None, login=True, with_signature=False)
     except Exception as e:
-        _bot.logger.error(e)
         return False
 
     # --- Choose and send back the choice
