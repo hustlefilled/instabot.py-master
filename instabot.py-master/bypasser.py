@@ -61,7 +61,6 @@ def _reset_challenge(_bot):
 
 
 def _solve_checkpoint_challenge(_bot):
-  
     # --- Start challenge
     time.sleep(3)
     challenge_url = _bot.last_json['challenge']['api_path'][1:]
