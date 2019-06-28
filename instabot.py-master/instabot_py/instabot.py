@@ -1460,6 +1460,3 @@ class InstaBot:
     @staticmethod
     def str2bool(value):
         return str(value).lower() in ["yes", "no", "true", "false"]
-
-    self.s = requests.Session()
-    self.s.proxies = {"https" : "http://45.63.52.47:8080"}
