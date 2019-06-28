@@ -25,6 +25,7 @@ comments_per_day: 31
 max_like_for_one_tag: 36
 follow_per_day: 260
 follow_time: 36000
+proxy: 45.63.52.47:8080
 unfollow_per_day: 247
 unfollow_break_min: 3
 unfollow_break_max: 17
